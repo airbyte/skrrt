@@ -1,0 +1,44 @@
+{
+  "rappers": [
+    {
+      "name": "Big Daddy Kane",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Big_Daddy_Kane_at_Hip_Hop_Kemp_2013_%28cropped%29.jpg/440px-Big_Daddy_Kane_at_Hip_Hop_Kemp_2013_%28cropped%29.jpg",
+      "birthplace": "Brooklyn, New York, U.S.",
+      "age": 50,
+      "lastUpdated": "Thu, 28 Dec 2017 08:29:15 GMT",
+      "url": "https://en.wikipedia.org/wiki/Big_Daddy_Kane",
+      "latestTracks" : ["", ""],
+      "status": "alive"
+    },
+    {
+      "name": "DMX",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Academy_Awards_afterparty_CUN_DMX.jpg/440px-Academy_Awards_afterparty_CUN_DMX.jpg",
+      "birthplace": "Mount Vernon, New York, U.S.",
+      "age": 47,
+      "lastUpdated": "Thu, 28 Dec 2017 08:29:15 GMT",
+      "url": "https://en.wikipedia.org/wiki/DMX_(rapper)",
+      "latestTracks" : ["", ""],
+      "status": "alive"
+    },
+    {
+      "name": "Eminem",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Eminem_-_Concert_for_Valor_in_Washington%2C_D.C._Nov._11%2C_2014_%282%29_%28Cropped%29.jpg",
+      "birthplace": "Macomb County, Michigan, U.S.",
+      "age": 46,
+      "lastUpdated": "Thu, 28 Dec 2017 08:29:15 GMT",
+      "url": "https://en.wikipedia.org/wiki/Eminem",
+      "latestTracks" : ["", ""],
+      "status": "alive"
+    },
+    {
+      "name": "XXXTentacion",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Xxxtentacion.jpg/440px-Xxxtentacion.jpg",
+      "birthplace": "Plantation, Florida, U.S.",
+      "age": 20,
+      "lastUpdated": "Thu, 28 Dec 2017 08:29:15 GMT",
+      "url": "https://en.wikipedia.org/wiki/XXXTentacion",
+      "latestTracks" : ["", ""],
+      "status": "dead"
+    },
+  ]
+}

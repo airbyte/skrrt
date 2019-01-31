@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 xmlns:tools="http://schemas.android.com/tools"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 tools:context=".MainActivity">
+
+    <ListView
+            android:id="@+id/rapper_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:scrollbars="none"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="15dp"
+            android:src="@android:drawable/ic_menu_upload"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/sortStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="15dp"
+            android:src="@android:drawable/ic_menu_upload"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/sortName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="15dp"
+            android:src="@android:drawable/ic_menu_upload"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"/>
+
+
+</android.support.design.widget.CoordinatorLayout>
