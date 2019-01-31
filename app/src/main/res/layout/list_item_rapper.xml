@@ -46,6 +46,7 @@
                 android:textColor="#000000"
                 android:textSize="40sp"
                 android:text="^"
+                android:focusable="false"
                 android:background="@null"/>
 
         <Button
@@ -56,6 +57,7 @@
                 android:paddingEnd="4dp"
                 android:textColor="#000000"
                 android:textSize="20sp"
+                android:focusable="false"
                 android:text="v"
                 android:background="@null"/>
 

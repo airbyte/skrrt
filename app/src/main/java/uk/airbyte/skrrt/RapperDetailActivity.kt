@@ -5,6 +5,14 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.webkit.WebView
+import android.webkit.WebResourceError
+import android.webkit.WebResourceRequest
+import android.annotation.TargetApi
+import android.widget.Toast
+import android.webkit.WebViewClient
+import android.app.Activity
+
+
 
 
 class RapperDetailActivity : AppCompatActivity() {
@@ -35,6 +43,23 @@ class RapperDetailActivity : AppCompatActivity() {
         setTitle(title)
 
         webView = findViewById(R.id.detail_web_view)
+
+        webView.settings.javaScriptEnabled = true // enable javascript
+
+        val activity = this
+
+        webView.webViewClient = object : WebViewClient() {
+            override fun onReceivedError(view: WebView, errorCode: Int, description: String, failingUrl: String) {
+                Toast.makeText(activity, description, Toast.LENGTH_SHORT).show()
+            }
+
+            @TargetApi(android.os.Build.VERSION_CODES.M)
+            override fun onReceivedError(view: WebView, req: WebResourceRequest, rerr: WebResourceError) {
+                // Redirect to deprecated method, so you can use it in all SDK versions
+                onReceivedError(view, rerr.errorCode, rerr.description.toString(), req.url.toString())
+            }
+        }
+
 
         webView.loadUrl(url)
     }

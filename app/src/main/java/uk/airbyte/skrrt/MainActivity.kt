@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity(), ItemRowListener {
 
             val seletedRapper = rapperList!![position]
             val detail = RapperDetailActivity.newIntent(this, seletedRapper)
-            this.startActivity(detail)
+            startActivity(detail)
         }
 
         listView.setOnItemLongClickListener { adapterView, view, position, l ->
