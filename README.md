@@ -1,5 +1,7 @@
 # The Chronic
 
+A starter app for lectures at UTC Reading
+
 You'll need to obtain your own google-services.json file to run this app:
 
 - Sign in to Firebase and open (or create) your project.
